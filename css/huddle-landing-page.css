@@ -1,7 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 .container {
   background-image: url(/images/bg-hero-desktop.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  max-width: 1440px;
+  height: auto;
+  padding: 30px;
+  margin: 0 auto;
+  background-color: hsl(193, 100%, 96%);
+}
+.logo-btn {
+  display: flex;
+  justify-content: space-between;
+}
+header {
+  font-family: "Poppins", sans-serif;
+}
+.logo {
+  width: 180px;
+  height: 24px;
+}
+.first-btn {
+  text-decoration: none;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 7px 40px;
+  border-radius: 50px;
+  color: hsl(192, 100%, 9%);
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+.first-btn:hover {
+  color: hsl(208, 11%, 55%);
+}
+
+.content-header {
+  display: flex;
   max-width: 1200px;
-  height: 200px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.content-header-section1 {
+  width: 40%;
+}
+
+.header-image {
+  background-image: url("/images/illustration-mockups.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 460px;
+  height: 331px;
+}
+.second-btn {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(322, 100%, 66%);
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 7px 40px;
+  border-radius: 50px;
+  display: inline-block;
+  text-align: center;
+  margin-top: 30px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.second-btn:hover {
+  background-color: hsla(322, 100%, 66%, 0.8);
 }
