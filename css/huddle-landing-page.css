@@ -9,7 +9,7 @@
   background-size: cover;
   max-width: 1440px;
   height: 100vh;
-  padding: 30px;
+  padding: 70px;
   margin: 0 auto;
   background-color: hsl(193, 100%, 96%);
 }
@@ -129,12 +129,16 @@ header {
 .small-section {
   width: 600px;
   height: auto;
-  margin: 0 auto;
   text-align: center;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   font-family: "Poppins", sans-serif;
   border-radius: 15px;
   padding: 35px 50px;
+  /* position: absolute; */
+  margin: 0 auto;
+  /* z-index: 1;
+  left: 0;
+  right: 0; */
 }
 .small-section h3 {
   font-size: 25px;
@@ -154,4 +158,19 @@ header {
 }
 .small-section-btn:hover {
   background-color: hsla(322, 100%, 66%, 0.8);
+}
+.footer-container {
+  font-family: "Open Sans", sans-serif;
+  background-color: hsl(192, 100%, 9%);
+  max-width: 1440px;
+  display: flex;
+  padding: 120px 70px;
+  color: hsl(0, 0%, 100%);
+}
+.footer-links li {
+  list-style: none;
+}
+.footer-links li a {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
 }
