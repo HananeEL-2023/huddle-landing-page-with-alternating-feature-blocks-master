@@ -21,8 +21,7 @@ header {
   font-family: "Poppins", sans-serif;
 }
 .logo {
-  width: 180px;
-  height: 24px;
+  height: 25px;
 }
 .first-btn {
   text-decoration: none;
@@ -46,11 +45,15 @@ header {
   justify-content: space-between;
   margin-top: 80px;
 }
+.content-header h1 {
+  color: hsl(192, 100%, 9%);
+}
 .content-header-section1 {
   width: 40%;
 }
 .content-header-section1 p {
   margin: 30px 0px;
+  color: hsl(192, 100%, 9%);
 }
 
 .header-image {
@@ -90,6 +93,7 @@ header {
 .common-style-sections h2 {
   font-weight: 700;
   margin-bottom: 20px;
+  color: hsl(192, 100%, 9%);
 }
 .common-style-sections p {
   color: hsl(208, 11%, 55%);
@@ -121,4 +125,33 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.small-section {
+  width: 600px;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 15px;
+  padding: 35px 50px;
+}
+.small-section h3 {
+  font-size: 25px;
+  color: hsl(192, 100%, 9%);
+}
+.small-section-btn {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(322, 100%, 66%);
+  font-weight: 400;
+  cursor: pointer;
+  padding: 15px 80px;
+  border-radius: 50px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: inline-block;
+  margin-top: 25px;
+}
+.small-section-btn:hover {
+  background-color: hsla(322, 100%, 66%, 0.8);
 }
