@@ -8,7 +8,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 1440px;
-  height: auto;
+  height: 100vh;
   padding: 30px;
   margin: 0 auto;
   background-color: hsl(193, 100%, 96%);
@@ -44,10 +44,13 @@ header {
   max-width: 1200px;
   align-items: center;
   justify-content: space-between;
-  margin-top: 40px;
+  margin-top: 80px;
 }
 .content-header-section1 {
   width: 40%;
+}
+.content-header-section1 p {
+  margin: 30px 0px;
 }
 
 .header-image {
@@ -68,9 +71,54 @@ header {
   border-radius: 50px;
   display: inline-block;
   text-align: center;
-  margin-top: 30px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .second-btn:hover {
   background-color: hsla(322, 100%, 66%, 0.8);
+}
+.container-sections {
+  margin: 150px 0px;
+}
+.common-style-sections {
+  max-width: 1100px;
+  height: 300px;
+  margin: 0 auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 40px 60px;
+  font-family: "Open Sans", sans-serif;
+}
+.common-style-sections h2 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.common-style-sections p {
+  color: hsl(208, 11%, 55%);
+  font-size: 18px;
+  font-weight: 400;
+}
+.content-section {
+  width: 40%;
+}
+.first-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-illustration {
+  width: 30%;
+}
+.illustration-section {
+  width: 100%;
+}
+.second-section {
+  margin: 40px auto;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+.third-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
