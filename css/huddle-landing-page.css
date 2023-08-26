@@ -3,22 +3,22 @@
   margin: 0;
   box-sizing: border-box;
 }
-.container {
+header {
+  font-family: "Poppins", sans-serif;
+  background-color: hsl(193, 100%, 96%);
   background-image: url(/images/bg-hero-desktop.svg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+.container {
   max-width: 1440px;
   height: auto;
   padding: 70px;
   margin: 0 auto;
-  background-color: hsl(193, 100%, 96%);
 }
 .logo-btn {
   display: flex;
   justify-content: space-between;
-}
-header {
-  font-family: "Poppins", sans-serif;
 }
 .logo {
   height: 25px;
@@ -40,7 +40,6 @@ header {
 
 .content-header {
   display: flex;
-  max-width: 1200px;
   align-items: center;
   justify-content: space-between;
   margin-top: 80px;
@@ -56,12 +55,14 @@ header {
   color: hsl(192, 100%, 9%);
 }
 
+.container-header-image {
+  width: 55%;
+}
 .header-image {
-  background-image: url("/images/illustration-mockups.svg");
+  background-image: url(/images/illustration-mockups.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  width: 460px;
-  height: 331px;
+  height: 500px;
 }
 .second-btn {
   text-decoration: none;
