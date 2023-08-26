@@ -312,6 +312,13 @@ footer {
     justify-content: space-between;
     padding: 133px 16px;
   }
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-links li {
+    margin-bottom: 20px;
+  }
   .info-section {
     width: 100%;
   }
@@ -322,5 +329,6 @@ footer {
 
   .icons-socialMedia {
     margin: 35px 0px;
+    justify-content: center;
   }
 }
