@@ -3,19 +3,24 @@
   margin: 0;
   box-sizing: border-box;
 }
-.container {
-  background-image: url(/images/bg-hero-desktop.svg);
+header {
+  background-color: hsl(193, 100%, 96%);
+  font-family: "Poppins", sans-serif;
+  background-color: hsl(193, 100%, 96%);
+  background-image: url("/images/bg-hero-desktop.svg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+.container {
   max-width: 1440px;
   height: auto;
   padding: 70px;
   margin: 0 auto;
-  background-color: hsl(193, 100%, 96%);
 }
 .logo-btn {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 header {
   font-family: "Poppins", sans-serif;
@@ -40,7 +45,6 @@ header {
 
 .content-header {
   display: flex;
-  max-width: 1200px;
   align-items: center;
   justify-content: space-between;
   margin-top: 80px;
@@ -55,13 +59,15 @@ header {
   margin: 30px 0px;
   color: hsl(192, 100%, 9%);
 }
+.container-header-image {
+  width: 55%;
+}
 
 .header-image {
   background-image: url("/images/illustration-mockups.svg");
   background-repeat: no-repeat;
+  height: 500px;
   background-size: contain;
-  width: 460px;
-  height: 331px;
 }
 .second-btn {
   text-decoration: none;
@@ -232,4 +238,87 @@ footer {
 }
 .copyright {
   font-size: 13px;
+}
+@media screen and (max-width: 320px) {
+  .container {
+    max-width: 320px;
+    padding: 25px;
+  }
+  .logo {
+    height: 18px;
+  }
+  .first-btn {
+    padding: 4px 20px;
+  }
+  .content-header {
+    display: flex;
+    flex-direction: column;
+  }
+  .content-header-section1 {
+    width: 100%;
+  }
+  .content-header h1 {
+    text-align: center;
+  }
+  .content-header-section1 p {
+    text-align: center;
+  }
+  .container-header-image {
+    width: 90%;
+    margin-top: 30px;
+  }
+  .header-image {
+    height: 175px;
+    background-size: contain;
+    width: 100%;
+  }
+  .container-sections {
+    margin: 20px;
+  }
+  .content-section {
+    width: 100%;
+  }
+  .container-illustration {
+    width: 100%;
+  }
+  .common-style-sections {
+    max-width: 320px;
+    height: auto;
+    padding: 30px;
+    text-align: center;
+  }
+  .common-style-sections h2 {
+    margin: 30px 0px;
+  }
+  .first-section,
+  .second-section,
+  .third-section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  footer {
+    margin-top: 200px;
+  }
+  .small-section {
+    max-width: 300px;
+    padding: 1px 13px;
+    max-width: 300px;
+  }
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 133px 16px;
+  }
+  .info-section {
+    width: 100%;
+  }
+  .footer-links {
+    width: 100%;
+    margin-top: 35px;
+  }
+
+  .icons-socialMedia {
+    margin: 35px 0px;
+  }
 }
