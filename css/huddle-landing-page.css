@@ -304,6 +304,9 @@ footer {
     padding: 1px 13px;
     max-width: 300px;
   }
+  .small-section-btn {
+    padding: 15px 50px;
+  }
   .footer-container {
     display: flex;
     flex-direction: column;
