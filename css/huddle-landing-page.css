@@ -239,7 +239,7 @@ footer {
 .copyright {
   font-size: 13px;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   .container {
     max-width: 320px;
     padding: 25px;
@@ -302,7 +302,6 @@ footer {
   .small-section {
     max-width: 300px;
     padding: 1px 13px;
-    max-width: 300px;
   }
   .small-section-btn {
     padding: 15px 50px;
